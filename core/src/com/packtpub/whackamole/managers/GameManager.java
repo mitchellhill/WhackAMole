@@ -9,6 +9,7 @@ import com.packtpub.whackamole.gameobjects.Mole;
 
 public class GameManager {
 
+    // test
     static Texture holeTexture; // texture image for background
     static Array<Sprite> holeSprites; // array of hole sprites
     private static float HOLE_RESIZE_FACTOR = 1100f;
