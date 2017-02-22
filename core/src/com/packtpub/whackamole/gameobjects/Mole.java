@@ -25,7 +25,7 @@ public class Mole {
     public float stunCounter = 0.0f; // The amount of time the mole is currently stunned
 
     public void randomizeWaitTime() {
-        maxTimeUnderGround = (float) Math.random() * 2f;
+        maxTimeUnderGround = (float) Math.random() * 4f;
     }
 
     public boolean handleTouch(float touchX, float touchY) {
